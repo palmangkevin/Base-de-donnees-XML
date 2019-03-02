@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="bibliotheque.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="Auteurs.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Livres.xsl"  ?>
+
+
+<!-- Kevin P. Kombate (p1080477) && Abdramane Diasso (p1128102) -->
+
+<bibliotheque>
+    
+    <auteur ident="auteur1">
+        <nom>Steel</nom>
+        <prenom>Danielle</prenom>
+        <pays>États-Unis</pays>
+        <commentaire>Danielle Steel, née Danielle Schuelein-Steel le 14 août 1947 à New York, est une romancière américaine. Spécialiste des romans d'amour, elle a signé de nombreux best-sellers.</commentaire>
+        <photo>https://media1.popsugar-assets.com/files/thumbor/r-zo36Hv2-uS67Kmu94XOj4gfmY/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/01/11/950/n/3019466/c70214ffdb02cd59_65515975a90de75d_DS.jpg</photo>
+    </auteur>
+    
+    <auteur ident="auteur2">
+        <prenom>Cheikh Anta</prenom>
+        <nom>Diop</nom>
+        <pays>Sénégal</pays>
+        <commentaire>Cheikh Anta Diop est un historien, anthropologue, et homme politique sénégalais. Il s'est attaché sa vie durant à montrer l'apport de l'Afrique et en particulier de l'Afrique noire à la culture et à la civilisation mondiale.</commentaire>
+        <photo>https://www.ndarinfo.com/photo/art/grande/10002747-16238669.jpg?v=1470705573</photo>
+    </auteur>
+    
+    <auteur ident="auteur3">
+        <prenom>Michel</prenom>
+        <nom>Tremblay</nom>
+        <pays>Canada</pays>
+        <photo>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Michel_Tremblay_%28cropped%29.jpg/1200px-Michel_Tremblay_%28cropped%29.jpg</photo>
+    </auteur>
+    
+    <auteur ident="auteur4">
+        <nom>King</nom>
+        <prenom>Stephen</prenom>
+        <pays>États-Unis</pays>
+        <photo>http://d28hgpri8am2if.cloudfront.net/tagged_assets/1967155/1666839_hr.jpg</photo>
+    </auteur>
+    
+    <auteur ident="auteur5">
+        <nom>Straub</nom>
+        <prenom>Peter</prenom>
+        <pays>États-Unis</pays>
+        <photo>https://images.huffingtonpost.com/2016-02-16-1455627009-9896743-PeterStraubphoto-thumb.jpg</photo>
+    </auteur>
+    
+    
+    
+    <livre langue="Francais" auteurs="auteur4">
+        <titre>Bazaar</titre>
+        <annee>1991</annee>
+        <prix monnaie="USD">
+            <valeur>25.79</valeur>
+        </prix>
+        <couverture>https://media.senscritique.com/media/000000009958/source_big/Bazaar.jpg</couverture>
+    </livre>
+    
+    
+    <livre langue="English" auteurs="auteur5">
+        <titre>Koko</titre>
+        <annee>1988</annee>
+        <prix monnaie="USD">
+            <valeur>45.60</valeur>
+        </prix>
+        <couverture>https://images.penguinrandomhouse.com/cover/9780307472205</couverture>
+    </livre>
+    
+    <livre langue="Francais" auteurs="auteur5 auteur4">
+        <titre>Territoires</titre>
+        <annee>2001</annee>
+        <prix monnaie="USD">
+            <valeur>22.50</valeur>
+        </prix>
+        <couverture>http://www.renaud-bray.com/ImagesEditeurs/PG/1561/1561116-gf.jpg</couverture>
+    </livre>
+    
+    
+    
+    <livre langue="Francais" auteurs="auteur4">
+        <titre>Charlie</titre>
+        <annee>1980</annee>
+        <prix monnaie="USD">
+            <valeur>59.99</valeur>
+        </prix>
+        <couverture>https://static.fnac-static.com/multimedia/images_produits/ZoomPE/4/5/6/9782253151654/tsp20130830101942/Charlie.jpg</couverture>
+    </livre>
+    
+   <livre langue="Francais" auteurs="auteur3">
+       <titre>La Traversée du continent</titre>
+       <annee>2007</annee>
+       <prix monnaie="CAD">
+           <valeur>45.99</valeur>
+       </prix>
+       <couverture>http://www.renaud-bray.com/ImagesEditeurs/PG/1549/1549394-gf.jpg</couverture>
+       <commentaire>Rhéauna, surnommée Nana, une jeune femme qui vit avec ses deux sœurs chez ses grands-parents en Saskatchewan, entreprend en 1913 un long voyage en train qui lui fait traverser un grande partie du continent américain. Elle doit retrouver à Montréal sa mère qui la réclame, mais son périple sera l'occasion pour elle de découvrir, à Regina, Winnipeg et Ottawa, des mondes dont elle de soupçonnait guère l'existence.</commentaire>
+   </livre>
+    
+    <livre langue="Francais" auteurs="auteur3">
+        <titre>Les clés du paradise</titre>
+        <annee>2013</annee>
+        <prix monnaie="CAD">
+            <valeur>29.99</valeur>
+        </prix>
+        <couverture>http://www.renaud-bray.com/ImagesEditeurs/PG/1431/1431140-gf.jpg</couverture>
+        <commentaire>En 1930, au centre-ville de Montréal, le Paradise est un club réservé aux «vieux garçons», c'est-à-dire, dans le langage codé de l'époque, aux homosexuels. Édouard est attiré comme une aimant par ce lieu glauque : il voudrait y entrer par la grande porte. Il aura bientôt 18 ans et, en lui, il sent un double, la duchesse de Langeais, qui s'impose à lui et veut «faire son entrée dans le grand monde». Pourtant, Édouard hésite : la Duchesse est-elle prête à devenir le travesti le plus célèbre des folles nuits de la métropole?</commentaire>
+    </livre>
+    
+   <livre langue="Francais" auteurs="auteur2">
+        <titre>L'Antiquité africaine par l'image</titre>
+        <annee>1979</annee>
+        <prix monnaie="EURO">
+            <valeur>18.60</valeur>
+        </prix>
+        <couverture>http://www.presenceafricaine.com/597/l-antiquite-africaine-par-l-image.jpg</couverture>
+        <commentaire>Ouvrage écrit en français, anglais, wolof et pulaar.Cet ouvrage, qui regroupe 110 illustrations commentées, témoigne de l'origine africaine de la civilisation égyptienne. "L'Égypte est africaine dans son écriture, dans sa culture et dans sa manière de penser" (Professeur Vercoutter). Le professeur Leclant reconnaît à l'Égypte "Ce caractère africain dans son tempérament et sa manière de penser". Concernant la parenté entre les langues africaines et l'égyptien ancien, le professeur Sauneron souligne "L'égyptien ne peut être isolé de son contexte africain et le sémitique ne rend pas compte de sa naissance". "La parenté en ancien égyptien et en wolof des pronoms suffixes à la troisième personne du singulier ne peut être un accident" (Cheikh Anta Diop).</commentaire>
+    </livre>
+    
+    <livre langue="Francais" auteurs="auteur2">
+        <titre>L'unité culturelle de l'Afrique noire</titre>
+        <annee>1959</annee>
+        <prix monnaie="EURO">
+            <valeur>11.85</valeur>
+        </prix>
+        <couverture>http://www.presenceafricaine.com/592/l-unite-culturelle-de-l-afrique-noire.jpg</couverture>
+        <commentaire>Seule une véritable connaissance du passé peut entretenir dans la conscience le sentiment d'une continuité historique, indispensable à la consolidation d'un Etat multinational. (...) Il n'est pas indifférent pour un peuple de se livrer à une telle investigation, à une pareille reconnaissance de soi ; car, ce faisant, le peuple en question s'aperçoit de ce qui est solide et valable dans ses propres structures culturelles et sociales, dans sa pensée en général, il s'aperçoit aussi de ce qu'il y a de faible dans celles-ci et qui par conséquent n'a pas résisté au temps. Il découvre l'ampleur réelle de ses emprunts, il peut maintenant se définir de façon positive à partir de critères indigènes non imaginés, mais réels. Il a une nouvelle conscience de ses valeurs et peut définir maintenant sa mission culturelle, non passionnément, mais d'une façon objective, car il voit mieux les valeurs culturelles qu'il est le plus apte, compte tenu de son état d'évolution, à développer et à apporter aux autres peuples.</commentaire>
+    </livre>
+        
+    <livre langue="English" auteurs="auteur4 auteur5">
+        <titre>The Talisman</titre>
+        <annee>1984</annee>
+        <prix monnaie="USD">
+            <valeur>19.99</valeur>
+        </prix>
+        <couverture>https://prodimage.images-bn.com/pimages/9781451697216_p0_v1_s550x406.jpg</couverture>
+    </livre>
+    
+    <livre langue="Francais" auteurs="auteur3">
+        <titre>La traversée de la ville</titre>
+        <annee>2008</annee>
+        <prix monnaie="CAD">
+            <valeur>25</valeur>
+        </prix>
+        <couverture>http://www.lemeac.com/DATA/LIVRE/1622.jpg</couverture>
+    </livre>
+
+    <livre langue="English" auteurs="auteur1">
+        <titre>Impossible</titre>
+        <annee>2005</annee>
+        <prix monnaie="USD">
+            <valeur>50.99</valeur>
+        </prix>
+        <couverture>http://www.images-chapitre.com/ima2/original/728/90728_2655952.jpg</couverture>
+        <commentaire>When a well-known gallerist and an eccentric painter, who all separate, fall in love with each other, their story can only be impossible. And yet ...</commentaire>
+    </livre>
+    
+    <livre langue="English" auteurs="auteur1">
+        <titre>Double Reflet</titre>
+        <annee>1998</annee>
+        <prix monnaie="USD">
+            <valeur>35</valeur>
+        </prix>
+        <couverture>https://www.pocket.fr/wp-content/uploads/Catalogue/9782266207577.jpg</couverture>
+        <commentaire>This book tells the story of real twins,very different in character, but the bond that binds them remains very strong. When twenty-year-old Victoria, the most irresponsible, will share the bed of a married man, she will marry by force a man whose sister is in love ... But when the idea of exchanging their roles will come, nothing will be like before ...</commentaire>
+    </livre>
+    
+    <livre langue="Francais" auteurs="auteur2">
+        <titre>Civilisation ou Barbarie</titre>
+        <annee>1981</annee>
+        <prix monnaie="EURO">
+            <valeur>29.99</valeur>
+        </prix>
+        <couverture>http://ecx.images-amazon.com/images/I/51RVV-3n44L._SX195_.jpg</couverture>
+    </livre>
+    
+    <livre langue="Francais" auteurs="auteur1">
+        <titre>Éternels Célibataires</titre>
+        <annee>2005</annee>
+        <prix monnaie="EURO">
+            <valeur>49</valeur>
+        </prix>
+        <couverture>https://www.pocket.fr/wp-content/uploads/Catalogue/9782266205214.jpg</couverture>
+    </livre>
+    
+</bibliotheque>

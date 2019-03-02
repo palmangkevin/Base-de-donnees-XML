@@ -1,0 +1,42 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.auteur {
+    border-bottom:3px solid black;
+    padding-bottom: 150px;
+    padding-top:150px;
+}
+
+h1{
+    font-family: arial, helvetica, sans-serif;
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+}
+
+h2{
+    font-family: arial, helvetica, sans-serif;
+    color: red;
+}
+
+h4{
+    font-family: arial, helvetica, sans-serif;
+    color: green;
+}
+
+ul li, p{
+    font-family: arial, helvetica, sans-serif;
+}
+
+img{
+    margin-top : 2em;
+    height : 280px;
+    width: 200px;
+    margin-left : 2em;
+    margin-right : auto;
+    float: right;
+    border-radius: 10%;
+}
+

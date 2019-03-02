@@ -1,0 +1,34 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+
+##IFT 3225 - TP1 par Kevin P. Kombate & Abdramane Diasso
+start = element bibliotheque{
+        auteur+, livre+
+        }
+
+auteur = element auteur{
+        ((nom+, prenom+)|(prenom+,nom+)),
+        pays, commentaire?, photo,
+        attribute ident {xsd:ID}
+        }
+
+livre = element livre{
+        attribute langue {xsd:language},
+        attribute auteurs{xsd:IDREFS}+,
+        titre, annee, prix, couverture?, commentaire?
+        }
+
+nom = element nom {text}
+prenom = element prenom {text}
+pays = element pays {text}
+commentaire = element commentaire {text}
+photo = element photo {xsd:anyURI}
+titre = element titre {xsd:string {minLength="1" maxLength="50"}}
+annee = element annee {xsd:gYear}
+prix = element prix {
+        attribute monnaie{xsd:string}?,
+        valeur
+        }
+valeur = element valeur {xsd:decimal{minInclusive="0" maxInclusive="60"}}
+couverture = element couverture {xsd:anyURI}
+
